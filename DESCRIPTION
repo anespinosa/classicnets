@@ -1,11 +1,20 @@
 Package: classicnets
-Type: Package
-Title: Title
+Title: classicnets: Classic Data of Social Networks
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: c(
+      person(given = "Alejandro", 
+      family = "Espinosa-Rada", 
+      role = c("cre","aut"),
+      email = "alejandro.espinosa@manchester.ac.uk", 
+      comment = c(ORCID = "0000-0003-4177-1912")),
+      person(given = "Francisca", 
+      family = "Ortiz", 
+      role = c("ctb"),
+      email = "franciscaortizruiz@gmail.com", 
+      comment = c(ORCID = "0000-0001-8538-4688"))
+      )
+Maintainer: Alejandro Espinosa-Rada <alejandro.espinosa@manchester.ac.uk>
+Description: Classic Data of Social Networks. From the beginning of sociometry until the beginning of the new millenium.
+License: AGPL (>= 3)
 Encoding: UTF-8
 LazyData: true
