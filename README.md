@@ -5,14 +5,14 @@
 [![CRAN
 status](https://www.r-pkg.org/badges/version/classicnets)](https://CRAN.R-project.org/package=classicnets)
 [![Lifecycle:
-experimental](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![License: GPL
 v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 <!-- badges: end -->
 
 # classicnets: Classic Data of Social Networks
 
-The goal of `classicnets` is to make available, compile and conserve
+x The goal of `classicnets` is to make available, compile and conserve
 classic data of social networks that are rarely available. We follow a
 history of this perspective based on [Linton
 Freeman](https://books.google.co.uk/books/about/The_Development_of_Social_Network_Analys.html?id=VcxqQgAACAAJ&redir_esc=y),
