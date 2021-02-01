@@ -42,7 +42,6 @@ The goal of `classicnets` is to make available, compile and conserve classic dat
 library(classicnets)
 ```
 
-
 ### Western Electric Company
 
 Davis, Allison; Gardner, Burleigh B. and Mary. R. Gardner (1941). Deep South: A Social Anthropological Study of Caste and Class. The University of Chicago Press, Chicago.
@@ -61,8 +60,17 @@ Roethlisberger, Fritz Jules and Dickson, William John (1939). Management and the
 data("southern_women")
 ```
 
-
 <img src="man/figures/southern_women.png" align="center" width="500px"/>
+
+### Mapuches in Coipuco
+
+Stuchlik, Milan (1976). The life on half share. Mechanisms of Social Recruitment among the Mapuche of Southern Chile. London: C. Hurst & Company.
+
+```{r}
+data("kin_mapuche")
+```
+
+<img src="man/figures/kin_mapuche.png" align="center" width="500px"/>
 
 -----
 
