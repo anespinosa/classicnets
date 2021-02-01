@@ -1,10 +1,16 @@
 #' Southern Women
 #'
-#' This data was collected in 1930 for ethnographic studies by Davis, Gardner and Gardner. It consists of two incident matrices. The first matrix is a group of 18 women attending 14 events. The second matrix is a different group of 6 women attending 9 events.
+#' This data was collected in 1936 for ethnographic studies performed by A. Davis, B.B. Gardner and R. Gardner, together with Elizabeth Stubbs Davis and J.G.St. Clair Drake. It consists of two incident matrices. The first matrix is an informal group of 18 women attending 14 events. The second matrix is a different group of 6 women attending 9 events.
+#' The dates and social events were reported in Old City Herald and the names were reported utilizing interviews, the record of participant-observers and guest lists. The two groups are divided according to race categories, and the cliques are differentiated between core, primary and secondary members within one of the groups.
 #'
-#' @format A 6 X 9 incident matrix of women in events.
+#' @format A list of three incident matrices
+#' \describe{
+#'     \item{list1}{A 18 X 14 matrix of Group 1}
+#'     \item{list2}{A 18 X 14 matrix of the cliques of Group 1}
+#'     \item{list3}{A 6 X 9 matrix of Group 2}
+#' }
 #'
-#' @source Davis, A., Gardner, B. B. and M. R. Gardner (1941). Deep South. The University of Chicago Press, Chicago.
+#' @source Davis, Allison; Gardner, Burleigh B. and Mary. R. Gardner (1941). Deep South: A Social Anthropological Study of Caste and Class. The University of Chicago Press, Chicago.
 #'
 #' @usage data(southern_women)
 #'
