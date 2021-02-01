@@ -13,7 +13,7 @@ v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/li
 # classicnets: Classic Data of Social Networks
 
 The goal of `classicnets` is to make available, compile and conserve
-classic data of social networks that are rarely available following a
+classic data of social networks that are rarely available. We follow a
 history of this perspective based on [Linton
 Freeman](https://books.google.co.uk/books/about/The_Development_of_Social_Network_Analys.html?id=VcxqQgAACAAJ&redir_esc=y),
 [John
