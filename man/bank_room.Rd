@@ -18,8 +18,6 @@ A list of matrices of the relationships between the wiremen (W), inspectors (I) 
 }
 \source{
 Roethlisberger, Fritz Jules and Dickson, William John (1939). Management and the worker. An Account of a Research Program Conducted by the Western Electric Company, Hawthorne Works, Chicago. Harvard University Press: Cambridge, Massachusetts.
-
-Freeman, Linton C. (2004). The Development of Social Network Analysis. A Study in the Sociology of Science. Empirical Press, Vancouver, BC Canada
 }
 \usage{
 data(bank_room)
@@ -27,5 +25,8 @@ data(bank_room)
 \description{
 This matrices are part of a study that was conducted at the Hawthorne Works of the Western Electric Company in Chicago that began in 1927 until 1932. From the so called "First Harvard School of Networks" (Freeman, 2004).
 Through observational and interview material was explored the degree and kind of social participation of each individual in the Bank Wiring Observation Room.
+}
+\references{
+Freeman, Linton C. (2004). The Development of Social Network Analysis. A Study in the Sociology of Science. Empirical Press, Vancouver, BC Canada
 }
 \keyword{datasets}
