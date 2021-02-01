@@ -74,8 +74,8 @@ rowlabel <- c("Miss Thelma Johnson", "Mrs. Sophia Harris",
 colnames(group2) <- collabel
 rownames(group2) <- rowlabel
 
-southern_women <- list(group1,
-                       membership_group1,
-                       group2)
+southern_women <- list(group1=group1,
+                       membership_group1=membership_group1,
+                       group2=group2)
 
 usethis::use_data(southern_women, overwrite = TRUE)
