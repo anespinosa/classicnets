@@ -73,6 +73,16 @@ data("kin_mapuche")
 
 <img src="man/figures/kin_mapuche.png" align="center" width="500px"/>
 
+### Karate Club
+
+Zachary, Wayne W. (1977). An information flow model for conflict and fission in small groups. Journal of Anthropological Research, 33(4), 452-473.
+
+```{r}
+data("karate")
+```
+
+<img src="man/figures/karate.png" align="center" width="500px"/>
+
 -----
 
 ## Social Network Data
