@@ -81,7 +81,7 @@ Zachary, Wayne W. (1977). An information flow model for conflict and
 fission in small groups. Journal of Anthropological Research, 33(4),
 452-473.
 
-    data("karate")
+    data("karate_club")
 
 <img src="man/figures/karate.png" align="center" width="500px"/>
 

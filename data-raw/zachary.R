@@ -81,6 +81,6 @@ label <- c("Mr. Hi", paste("Actor", 2:33), "John A.")
 colnames(matrixC) <- label
 rownames(matrixC) <- label
 
-karate <- list(matrixE=matrixE, matrixC=matrixC)
+karate_club <- list(matrixE=matrixE, matrixC=matrixC)
 
-usethis::use_data(karate, overwrite = TRUE)
+usethis::use_data(karate_club, overwrite = TRUE)
