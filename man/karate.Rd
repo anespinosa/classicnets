@@ -28,12 +28,19 @@ Only 34 individuals are presented from a total of near 60 members. However, the 
 The capacity matrix has a scale applied to the edges of contexts in which a pair interacted:
 
 - 1. Association in and between academic classes at the university.
+
 - 2. Membership in Mr. Hi's private karate studio on the east side of the city, where Mr. Hi taught nights as a part-time instructor
+
 - 3. Membership in Mr. Hi's private karate studio on the east side of the city, where many of his supporters worked out on weekends.
+
 - 4. Student teaching at the east-side karate studio referred to in (2). This is different from (2) in that student teachers interacted with each other, but were prohibited from interacting with their students.
+
 - 5. Interaction at the university rathskeller, located in the same basement as the karate club's workout area.
+
 - 6. Interaction at a student-oriented bar located across the street from the university campus.
+
 - 7. Attendance at open karate tournaments held through the area at private karate studios.
+
 - 8. Attendance at intercollegiate karate tournaments held at local universities. Since both open and intercollegiate tournaments were held on Saturday, attendance at both was impossible.
 }
 \keyword{datasets}
