@@ -9,8 +9,8 @@
 #' @format A list of matrices of the relationships and other activities shared by the Mapuche community in Coipuco.
 #' \describe{
 #'     \item{kin}{Types of kinship relations among the community. 0: no information or no kindship relation. 1: patri-relation. 2: matri-relation. 3: affinal relation.}
-#'     \item{intensity}{Intensity of kindship relationships among the community. 0: no information or no kindship relation. 1: primary kindship relation between two members of both families. 2: near and/or exactly known kinship relation. 3: supposed kinship relation, the terms are used consistenly, but cannot be substantiated. 4: affinal relation.}
 #'     \item{reservations}{Internal groups among the community. Each roman number is one group: they are six in total}
+#'     \item{intensity}{Intensity of kindship relationships among the community. 0: no information or no kindship relation. 1: primary kindship relation between two members of both families. 2: near and/or exactly known kinship relation. 3: supposed kinship relation, the terms are used consistenly, but cannot be substantiated. 4: affinal relation.}
 #' }
 #'
 #' @source Stuchlik, Milan (1976). The life on half share. Mechanisms of Social Recruitment among the Mapuche of Southern Chile. London: C. Hurst & Company.

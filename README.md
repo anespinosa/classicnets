@@ -49,9 +49,10 @@ library(classicnets)
 
 ### Western Electric Company
 
-Davis, Allison; Gardner, Burleigh B. and Mary. R. Gardner (1941). Deep
-South: A Social Anthropological Study of Caste and Class. The University
-of Chicago Press, Chicago.
+Roethlisberger, Fritz Jules and Dickson, William John (1939). Management
+and the worker. An Account of a Research Program Conducted by the
+Western Electric Company, Hawthorne Works, Chicago. Harvard University
+Press: Cambridge, Massachusetts.
 
 ``` r
 data("bank_room")
@@ -61,10 +62,9 @@ data("bank_room")
 
 ### Southern Women
 
-Roethlisberger, Fritz Jules and Dickson, William John (1939). Management
-and the worker. An Account of a Research Program Conducted by the
-Western Electric Company, Hawthorne Works, Chicago. Harvard University
-Press: Cambridge, Massachusetts.
+Davis, Allison; Gardner, Burleigh B. and Mary. R. Gardner (1941). Deep
+South: A Social Anthropological Study of Caste and Class. The University
+of Chicago Press, Chicago.
 
 ``` r
 data("southern_women")
