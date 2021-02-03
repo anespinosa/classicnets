@@ -65,6 +65,16 @@ of Chicago Press, Chicago.
 
 <img src="man/figures/southern_women.png" align="center" width="500px"/>
 
+### Dispute of Worker of a Miner
+
+Kapferer, Bruce (1969). Norms and the manipulation of relationships in a
+work context. In J Mitchell (ed), Social networks in urban situations.
+Manchester: Manchester University Press.
+
+    data("miner_dispute")
+
+<img src="man/figures/miner_dispute.png" align="center" width="500px"/>
+
 ### Mapuches in Coipuco
 
 Stuchlik, Milan (1976). The life on half share. Mechanisms of Social
@@ -83,7 +93,7 @@ fission in small groups. Journal of Anthropological Research, 33(4),
 
     data("karate_club")
 
-<img src="man/figures/karate.png" align="center" width="500px"/>
+<img src="man/figures/karate_club.png" align="center" width="500px"/>
 
 ------------------------------------------------------------------------
 

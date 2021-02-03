@@ -1,0 +1,58 @@
+#' Dispute of Worker of a Miner
+#'
+#' Bruce Kapferer was one of the members of the so called "Network School of Manchester" (Freeman 2004). He collected between September 1964 and January 1965, in Zambia (then Northern Rhodesia), observed data of a dispute between mine employees of the Anglo-American Corporation's Zambia Broken Hill Development Company, who are engaged in surface work in the Cell Room of the Electro-Zinc Plant of the mine.
+#' The network represent the relationships of 15 workers that spend all their working time in the vicinity of Unit 3. However, there were also other eight workers not reported in the matrix that spent their working time between the three units.
+#' The study followed the dispute between two workers, Abraham and Donald.
+#'
+#' @references Doreian, Patrick (1974). On the connectivity of social networks. Journal of Mathematical Sociology, 3, 245-258.
+#' @references Freeman, Linton C. (2004). The Development of Social Network Analysis. A Study in the Sociology of Science. Empirical Press, Vancouver, BC Canada
+#'
+#' @format Matrices and some attributes of the workers
+#' \describe{
+#'     \item{conversational_exchange}{Mutual sharing of information, gossip, opinions etc.}
+#'     \item{joking_exchange}{Institutionalized tribal joking and joking behaviour which is not part of such a recognized tribal joking relationship.}
+#'     \item{job_assistance}{Practice of some employees' assisting others with their specific tasks in the work context.}
+#'     \item{personal_service}{Observed behaviour of workers performing services for each other such as the collection of drinking water for others and giving of cigarettes and food.}
+#'     \item{cell_room}{Links during the dispute, in which `1` are unpliex bonds and `2` multiplex relationships.}
+#'     \item{workers}{Reticulum, Span, Density, Star Multiplex, Zone Multiplex, Occupations, Tribe, Age and Religion (only considering the attributes that appears in the matrices)}
+#' }
+#'
+#' @details
+#'
+#' Abraham shout Donald to slow down his working:
+#'
+#' "The normal clamour and hum of the Cell Room is suddenly broken by Abraham who shouts across to Donald at Stand IV, "Buyantanshe (Progress), slow down and wait for us." A hush now settles on the Unit.
+#' For a while Donald takes no notice and Abraham calls "Buyantanshe" once more. This evoke a reaction and Donald retorts that he is not to be called by his nicknames as he already has a proper name.
+#' Abraham replies that he only knows Donald by his nickname, "Buyantanshe". His blood up, Donald shouts, "We young men must be careful about being bewitched." Abraham assents, "You are quite right, you will
+#' be bewitched if you don't respect your elders." Donald is not almost beside himself with rage, and goes straight to lodge a formal protest...  "(Kapferer 1969: 191-192)
+#'
+#' The managements imposes a restriction on the work speed that was believed to regulated work more efficiently. If the workers finished their jobs early, they could be allocated to another work that extend his working time for the double.
+#'
+#' The data are the direct *interactions* within the network before the dispute (`conversational_exchange`, `joking_exchange`, `job_assistance`, and `personal_service`), the *structural* dimensions (`reticulum`) and the direct links during the dispute (`cell_room`)
+#'
+#' The reticulum (i.e. network structures) is a typology created by Kapferer combining *Span*, *Density*, *Star Multiplexity*, *Zone Multiplexity*. Numbers that are above the median are `+` and those which are below are `-`.
+#'
+#' - Span: Number of links out of the total viable links operating between the actors observed
+#'
+#' 100*(E+L)/S
+#'
+#' where, E=number of direct links between Ego and other individuals in Ego's reticulum, L=the number of links between each of the individuals to whom Ego is linked and S=the toal number of links between all individuals in the situation.
+#'
+#' - Density: Same as Kephart (1950) but excluding Ego's direct relationships.
+#'
+#'  100*(Na/((N-1)/2))
+#'
+#'  Where Na= the number of actual links, and N=total number of persons in the network.
+#'
+#' - Star Multiplexity: Ego's direct link to members of his reticulum.
+#'
+#' - Zone Multiplexity: Ties connecting each of the individuals in a reticulum, excluding Ego's direct links to them.
+#'
+#' @source Kapferer, Bruce (1969). Norms and the manipulation of relationships in a work context. In J Mitchell (ed), Social networks in urban situations. Manchester:  Manchester University Press.
+#'
+#' @usage data(miner_dispute)
+#'
+#' @docType data
+#'
+#'
+"miner_dispute"
