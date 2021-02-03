@@ -12,7 +12,7 @@ v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/li
 
 # classicnets: Classic Data of Social Networks
 
-x The goal of `classicnets` is to make available, compile and conserve
+The goal of `classicnets` is to make available, compile and conserve
 classic data of social networks that are rarely available. We follow a
 history of this perspective based on [Linton
 Freeman](https://books.google.co.uk/books/about/The_Development_of_Social_Network_Analys.html?id=VcxqQgAACAAJ&redir_esc=y),
@@ -99,8 +99,16 @@ fission in small groups. Journal of Anthropological Research, 33(4),
 
 ## Social Network Data
 
-There are other excellent R packages for more comprehensive data such as
-[`networkdata`](https://github.com/schochastics/networkdata).
+There are other excellent R packages for other and in some cases more
+comprehensive data such as
+[`igraphdata`](https://github.com/igraph/igraphdata) or
+[`networkdata`](https://github.com/schochastics/networkdata), and data
+in different formats in the project
+[Netzschleuder](https://networks.skewed.de). Likewise, there are many
+other classical social network databases in
+[UCINET](http://www.analytictech.com/archive/ucinet.htm), which is the
+most comprehensive and well established software for social network
+analysis of the last decades.
 
 ------------------------------------------------------------------------
 
