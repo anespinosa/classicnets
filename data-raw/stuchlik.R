@@ -108,7 +108,49 @@ usethis::use_data(kin_mapuche, overwrite = TRUE)
 
 ##### V. Mutual participation in Mingaco  ####
 
+participation <- matrix(c(1,2,0,0,2,0,0,0,
+                          2,0,0,0,2,0,0,0,
+                          2,2,0,0,0,0,2,0,
+                          2,0,0,0,0,0,2,0,
+                          2,2,0,0,2,0,2,0,
+                          2,2,0,0,2,0,0,0,
+                          2,2,0,0,1,0,0,0,
+                          2,0,0,0,0,0,0,0,
+                          0,0,2,0,0,0,0,0,
+                          2,0,0,0,0,0,0,0,
+                          2,0,0,0,0,0,0,0,
+                          2,0,0,0,2,0,0,0,
+                          2,0,0,0,2,0,0,0,
+                          2,0,0,0,0,1,0,0,
+                          0,0,0,0,0,2,0,0,
+                          2,0,0,0,0,2,0,0,
+                          0,0,0,0,0,2,0,0,
+                          2,0,0,0,0,2,0,0,
+                          2,0,0,0,2,0,0,0,
+                          0,1,1,2,0,0,0,0,
+                          0,0,0,1,0,0,0,0,
+                          0,0,0,2,0,0,0,0,
+                          0,0,0,0,0,0,1,1,
+                          0,0,0,0,0,2,0,0), byrow=TRUE, ncol=8)
 
+labelVcolumn <- c("D. TRANAMIL", "C. HUENCHUMAN 1", "C. HUENCHUMAN 2",
+                  "SEGUNDO HUENCHUMAN", "JULIO MILLAREAL", "HUENCHU ALARCON",
+                  "JUAN ALCAPAN 1", "JUAN ALCAPAN 2")
+labelVfile <- c("DANIEL TRANAMIL", "SO REMIGIO", "JUAN TRANAMIL", "SO JULIO",
+                "ANTONIO MILLAREAL", "AGUSTIN MILLAREAL", "JULIO MILLAREAL",
+                "PAINE CAYUL", "JUAN CAYUL", "HUENCHULEO MANQUEPI",
+                "BR HUNECHUMAN", "JUAN CURIHUAL", "PAINE CURIHUAL",
+                "HUENCHU ALARCON", "BR PEDRO", "LUIS MILLAR", "BR ANTONIO",
+                "JUAN BARRA", "CARLOS BARRA", "CARLOS HUENCHUMAN",
+                "SEGUNDO & MANQUEPI HUENCHUMAN", "IGNACIO QUINELEU",
+                "JUAN ALCAPAN", "AGUSTIN CAYUL")
+
+colnames(participation) <- labelVcolumn
+rownames(participation) <- labelVfile
+
+participation_mapuche <- list(participation=participation)
+
+usethis::use_data(participation_mapuche, overwrite = TRUE)
 
 ##### VI. Vuelta mano and informal help between them ####
 
