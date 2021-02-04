@@ -6,10 +6,10 @@
 #'
 #' @references Ortiz, Francisca and Espinosa-Rada, Alejandro (forthcoming). Ciencias de redes sociales en America Latina: enfasis y nuevas directrices en el campo de las ciencias sociales. In Ortiz, Francisca and Espinosa-Rada, Alejandro (eds.) El analisis de redes sociales en Latinamerica. Madrid, Spain: Editorial CIS.
 #'
-#' @format A list of matrices of the relationships and other activities shared by the Mapuche community in Coipuco.
+#' @format A list of matrices of vuelta mano and informal help by the Mapuche community in Coipuco.
 #' \describe{
 #'     \item{informalhelp}{Vuelta mano and informal help between coupucans.
-#'                         0: no information or no informal between them.
+#'                         0: no information or no informal help between them.
 #'                         1: vuelta mano: lasting or frequently expressed relationship.
 #'                         2: lasting mutual help of two near relatives.
 #'                         3: informal help: at least one instance observed.}

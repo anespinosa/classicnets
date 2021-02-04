@@ -93,7 +93,6 @@ kin_mapuche <- list(kin=kin,
 
 usethis::use_data(kin_mapuche, overwrite = TRUE)
 
-
 ##### II. Position of authority and its relation to genealogical
 #### and economic position ####
 
