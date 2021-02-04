@@ -191,6 +191,3 @@ informalhelp_mapuche <- list(informalhelp=informalhelp)
 
 usethis::use_data(informalhelp_mapuche, overwrite = TRUE)
 
-##### VII. Formalized friendship relations and their locations ####
-
-
