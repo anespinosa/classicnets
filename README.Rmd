@@ -63,6 +63,22 @@ data("southern_women")
 
 <img src="man/figures/southern_women.png" align="center" width="500px"/>
 
+### Tolman and Howe Courts
+
+Festinger, Leon, Stanley, Schachter and Back, Kurt (1950). Social pressures in informal groups. A study of human factors in housing. California, United States: Stanford University Press.
+
+```{r}
+data("tolman_court")
+```
+
+<img src="man/figures/tolman_court.png" align="center" width="500px"/>
+
+```{r}
+data("howe_court")
+```
+
+<img src="man/figures/howe_court.png" align="center" width="500px"/>
+
 ### Dispute of Worker of a Miner
 
 Kapferer, Bruce (1969). Norms and the manipulation of relationships in a work context. In J Mitchell (ed), Social networks in urban situations. Manchester:  Manchester University Press.
@@ -79,6 +95,8 @@ Stuchlik, Milan (1976). The life on half share. Mechanisms of Social Recruitment
 
 ```{r}
 data("kin_mapuche")
+data("informalhelp_mapuche")
+data("participation_mapuche")
 ```
 
 <img src="man/figures/kin_mapuche.png" align="center" width="500px"/>
