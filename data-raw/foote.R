@@ -29,20 +29,15 @@ statusnortons <- c("1", "2", "2", "3", "4", "4",
 
 #### The Angelo's Boys ####
 
-angelo <- matrix(c(0,1,1,1,1,1,0,0,0,0,0,0,0,
-                       0,0,1,1,1,0,0,0,0,0,0,0,0,
-                       0,1,0,1,1,1,0,0,0,0,0,0,0,
-                       0,0,0,0,0,0,0,0,0,0,0,0,0,
-                       0,0,0,0,0,0,1,0,1,0,0,0,0,
-                       0,0,0,0,0,0,0,1,0,0,0,0,0,
-                       0,0,0,0,0,0,0,0,0,1,0,0,0,
-                       0,0,0,0,0,0,0,0,0,0,1,0,0,
-                       0,0,0,0,0,0,0,0,0,0,0,1,0,
-                       0,0,0,0,0,0,0,0,0,0,0,0,1,
-                       0,0,0,0,0,0,0,0,0,0,0,0,0,
-                       0,0,0,0,0,0,0,0,0,0,0,0,0,
-                       0,0,0,0,0,0,0,0,0,0,0,0,0),
-                     byrow=TRUE, ncol=13)
+angelo <- matrix(c(0,1,1,0,0,0,0,0,
+                   0,0,0,1,1,0,0,0,
+                   0,0,0,0,0,1,0,0,
+                   0,0,0,0,0,0,1,0,
+                   0,0,0,0,0,0,0,0,
+                   0,0,0,0,0,0,0,1,
+                   0,0,0,0,0,0,0,0,
+                   0,0,0,0,0,0,0,0),
+                   byrow=TRUE, ncol=8)
 
 labelangelo <- c("Angelo", "Nutsy", "Phil", "Carl",
                  "Frank", "Paul", "Tommy", "Joe")
@@ -60,8 +55,8 @@ freqangelo <- c("1", "1", "1", "2",
 
 corner_boys <- list(thenortons=thenortons,
                     statusnortons=statusnortons,
-                    angelo=angelo
-                    statusangelo=statusangelo
+                    angelo=angelo,
+                    statusangelo=statusangelo,
                     freqangelo=freqangelo)
 
 usethis::use_data(corner_boys, overwrite = TRUE)
