@@ -72,6 +72,18 @@ data("southern_women")
 
 <img src="man/figures/southern_women.png" align="center" width="500px"/>
 
+### Corner Boys
+
+Whyte, Willian Foote (1993\[1943\]). Street corner society. The social
+structure of an italian slum. Chicago, United States: The University of
+Chicago Press.
+
+``` r
+data("corner_boys")
+```
+
+<img src="man/figures/corner_boys.png" align="center" width="500px"/>
+
 ### Tolman and Howe Courts
 
 Festinger, Leon, Stanley, Schachter and Back, Kurt (1950). Social
