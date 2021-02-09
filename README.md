@@ -80,6 +80,7 @@ Chicago Press.
 
 ``` r
 data("corner_boys")
+data("informalorg_corneville")
 ```
 
 <img src="man/figures/corner_boys.png" align="center" width="500px"/>

@@ -69,6 +69,7 @@ Whyte, Willian Foote (1993[1943]). Street corner society. The social structure o
 
 ```{r}
 data("corner_boys")
+data("informalorg_corneville")
 ```
 
 <img src="man/figures/corner_boys.png" align="center" width="500px"/>
@@ -79,14 +80,10 @@ Festinger, Leon, Stanley, Schachter and Back, Kurt (1950). Social pressures in i
 
 ```{r}
 data("tolman_court")
-```
-
-<img src="man/figures/tolman_court.png" align="center" width="500px"/>
-
-```{r}
 data("howe_court")
 ```
 
+<img src="man/figures/tolman_court.png" align="center" width="500px"/>
 <img src="man/figures/howe_court.png" align="center" width="500px"/>
 
 ### Dispute of Worker of a Miner
@@ -105,6 +102,7 @@ Stuchlik, Milan (1976). The life on half share. Mechanisms of Social Recruitment
 
 ```{r}
 data("kin_mapuche")
+data("labor_mapuche")
 data("informalhelp_mapuche")
 data("participation_mapuche")
 ```
