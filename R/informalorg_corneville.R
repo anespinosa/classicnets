@@ -1,0 +1,41 @@
+#' Informal Organization of the Corneville S&A Club 1939 and 1940
+#'
+#' This data was as a result of a etnography done in an italian american slum of
+#' Corneville, in Boston, USA. Data collected around 1937-40. In this database
+#' are two matrices of the informal organization in the Cornevile S&A Club.
+#' The first one, it is about how was that network in early september 1939, and
+#' the second one, it is of summer in 1940.
+#'
+#' @format One 35 X 35 matrix (network of early september 1939), and another
+#' one of 10 X 10 (network of summer 1940).
+#' \describe{
+#'     \item{informalorg39}{A 35 X 35 matrix of the informal organization.
+#'     The ones who send the tie are in row, and the ones who received
+#'     the ties are in columns. It represent the line of influence between them.}
+#'     \item{status_informalorg39}{The status of each person. "1" is higher, and
+#'      "8" is the lowest.}
+#'     \item{freq_informalorg39}{The fraquency of the people involved, where
+#'     "1" is "frequent", and "2" is for those "infrequently present".}
+#'     \item{mem_informalorg39}{"1" is a corner boy, and "2" is a member of
+#'     racket organization.}
+#'     \item{informalorg40}{A 10 X 10 matrix of the informal organization.
+#'     The ones who send the tie are in row, and the ones who received
+#'     the ties are in columns. It represent the line of influence between them.}
+#'     \item{status_informalorg40}{The status of each person. "1" is higher, and
+#'      "6" is the lowest.}
+#'     \item{freq_informalorg40}{The fraquency of the people involved, where
+#'     "1" is "frequent", and "2" is for those "infrequently present".}
+#'     \item{mem_informalorg40}{"1" is a corner boy, and "2" is a member of
+#'     racket organization.}
+#'     }
+#'
+#' @source Whyte, Willian Foote (1993[1943]). Street corner society. The social
+#' structure of an italian slum. Chicago, United States: The University
+#' of Chicago Press.
+#'
+#' @usage data(informalorg_corneville)
+#'
+#' @docType data
+#'
+#'
+"informalorg_corneville"
