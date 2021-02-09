@@ -43,6 +43,16 @@ The goal of `classicnets` is to make available, compile and conserve classic dat
 library(classicnets)
 ```
 
+### Friendship choices among pupils
+
+Moreno, Jacob L. (1934). Who Shall Survive? Washington, DC: Nervous and Mental Disease Publishing Company.
+
+```{r}
+data("pupils_classroom")
+```
+
+<img src="man/figures/pupils_classroom.png" align="center" width="500px"/>
+
 ### Western Electric Company
 
 Roethlisberger, Fritz Jules and Dickson, William John (1939). Management and the worker. An Account of a Research Program Conducted by the Western Electric Company, Hawthorne Works, Chicago. Harvard University Press: Cambridge, Massachusetts.
