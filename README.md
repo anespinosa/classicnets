@@ -93,14 +93,10 @@ California, United States: Stanford University Press.
 
 ``` r
 data("tolman_court")
-```
-
-<img src="man/figures/tolman_court.png" align="center" width="500px"/>
-
-``` r
 data("howe_court")
 ```
 
+<img src="man/figures/tolman_court.png" align="center" width="500px"/>
 <img src="man/figures/howe_court.png" align="center" width="500px"/>
 
 ### Dispute of Worker of a Miner
@@ -123,6 +119,7 @@ Company.
 
 ``` r
 data("kin_mapuche")
+data("labor_mapuche")
 data("informalhelp_mapuche")
 data("participation_mapuche")
 ```
