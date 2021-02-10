@@ -111,6 +111,17 @@ data("howe_court")
 <img src="man/figures/tolman_court.png" align="center" width="500px"/>
 <img src="man/figures/howe_court.png" align="center" width="500px"/>
 
+### Lozi Kings
+
+Gluckman, Max (1973\[1955\]). The judicial process among the Barotse of
+Northern Rhodesia (Zambia). New York: Humanities Press.
+
+``` r
+data("lozi_kings")
+```
+
+<img src="man/figures/lozi_kings.png" align="center" width="500px"/>
+
 ### Gossip network
 
 Epstein, A.L. (1969). Gossip, Norms and Social Network. In Mitchell,
