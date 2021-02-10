@@ -112,6 +112,7 @@ Stuchlik, Milan (1976). The life on half share. Mechanisms of Social Recruitment
 
 ```{r}
 data("kin_mapuche")
+data("activity_mapuche")
 data("labor_mapuche")
 data("informalhelp_mapuche")
 data("participation_mapuche")

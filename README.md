@@ -1,5 +1,6 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
 <!-- badges: start -->
 
 [![CRAN
@@ -23,7 +24,7 @@ reviews from
 The data are in the classic `matrix` format.
 
 🖊 Author/mantainer: [Alejandro
-Espinosa-Rada](https://www.research.manchester.ac.uk/portal/en/researchers/alejandro-espinosa(4ed72800-e02b-47a8-a958-640b6a07f563).html)
+Espinosa-Rada](https://www.research.manchester.ac.uk/portal/en/researchers/alejandro-espinosa\(4ed72800-e02b-47a8-a958-640b6a07f563\).html)
 
 [![Follow me on
 Twitter](https://img.shields.io/badge/Follow%20me%20on%20Twitter-9cf.svg)](https://twitter.com/aespinosarada)
@@ -38,19 +39,23 @@ Twitter](https://img.shields.io/badge/Follow%20me%20on%20Twitter-9cf.svg)](https
 Analysis](https://www.socialsciences.manchester.ac.uk/mitchell-centre/),
 The University of Manchester
 
-------------------------------------------------------------------------
+-----
 
 ## Social Networks Available
 
-    library(classicnets)
+``` r
+library(classicnets)
+```
 
 ### Friendship choices among pupils
 
 Moreno, Jacob L. (1934). Who Shall Survive? Washington, DC: Nervous and
-Mental Disease Publishing Company.
+Mental Disease Publishing
+Company.
 
-    data("pupils_classroom")
-    #> Warning in data("pupils_classroom"): data set 'pupils_classroom' not found
+``` r
+data("pupils_classroom")
+```
 
 <img src="man/figures/pupils_classroom.png" align="center" width="500px"/>
 
@@ -61,7 +66,9 @@ and the worker. An Account of a Research Program Conducted by the
 Western Electric Company, Hawthorne Works, Chicago. Harvard University
 Press: Cambridge, Massachusetts.
 
-    data("bank_room")
+``` r
+data("bank_room")
+```
 
 <img src="man/figures/bank_room.png" align="center" width="500px"/>
 
@@ -71,7 +78,9 @@ Davis, Allison; Gardner, Burleigh B. and Mary. R. Gardner (1941). Deep
 South: A Social Anthropological Study of Caste and Class. The University
 of Chicago Press, Chicago.
 
-    data("southern_women")
+``` r
+data("southern_women")
+```
 
 <img src="man/figures/southern_women.png" align="center" width="500px"/>
 
@@ -81,8 +90,10 @@ Whyte, Willian Foote (1993\[1943\]). Street corner society. The social
 structure of an italian slum. Chicago, United States: The University of
 Chicago Press.
 
-    data("corner_boys")
-    data("informalorg_corneville")
+``` r
+data("corner_boys")
+data("informalorg_corneville")
+```
 
 <img src="man/figures/corner_boys.png" align="center" width="500px"/>
 
@@ -92,8 +103,10 @@ Festinger, Leon, Stanley, Schachter and Back, Kurt (1950). Social
 pressures in informal groups. A study of human factors in housing.
 California, United States: Stanford University Press.
 
-    data("tolman_court")
-    data("howe_court")
+``` r
+data("tolman_court")
+data("howe_court")
+```
 
 <img src="man/figures/tolman_court.png" align="center" width="500px"/>
 <img src="man/figures/howe_court.png" align="center" width="500px"/>
@@ -104,7 +117,9 @@ Kapferer, Bruce (1969). Norms and the manipulation of relationships in a
 work context. In J Mitchell (ed), Social networks in urban situations.
 Manchester: Manchester University Press.
 
-    data("miner_dispute")
+``` r
+data("miner_dispute")
+```
 
 <img src="man/figures/miner_dispute.png" align="center" width="500px"/>
 
@@ -114,10 +129,13 @@ Stuchlik, Milan (1976). The life on half share. Mechanisms of Social
 Recruitment among the Mapuche of Southern Chile. London: C. Hurst &
 Company.
 
-    data("kin_mapuche")
-    data("labor_mapuche")
-    data("informalhelp_mapuche")
-    data("participation_mapuche")
+``` r
+data("kin_mapuche")
+data("activity_mapuche")
+data("labor_mapuche")
+data("informalhelp_mapuche")
+data("participation_mapuche")
+```
 
 <img src="man/figures/kin_mapuche.png" align="center" width="500px"/>
 
@@ -127,11 +145,13 @@ Zachary, Wayne W. (1977). An information flow model for conflict and
 fission in small groups. Journal of Anthropological Research, 33(4),
 452-473.
 
-    data("karate_club")
+``` r
+data("karate_club")
+```
 
 <img src="man/figures/karate_club.png" align="center" width="500px"/>
 
-------------------------------------------------------------------------
+-----
 
 ## Social Network Data
 
@@ -146,19 +166,19 @@ other classical social network databases in
 most comprehensive and well established software for social network
 analysis of the last decades.
 
-------------------------------------------------------------------------
+-----
 
 ## Notes
 
--   Please report any missing sources/references for datasets.
+  - Please report any missing sources/references for datasets.
 
--   Many datasets were manually gathered and may in this manner contain
+  - Many datasets were manually gathered and may in this manner contain
     blunders. On the off chance that you detect any, please report them.
 
--   Double check the original source for any irregularities if you need
+  - Double check the original source for any irregularities if you need
     to use the information in an academic paper.
 
-------------------------------------------------------------------------
+-----
 
 ## Code of conduct
 
@@ -166,4 +186,4 @@ Please note that this project is released with a [Contributor Code of
 Conduct](https://anespinosa.github.io/netmem/CODE_OF_CONDUCT.html). By
 participating in this project you agree to abide by its terms.
 
-------------------------------------------------------------------------
+-----
