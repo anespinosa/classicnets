@@ -111,6 +111,18 @@ data("howe_court")
 <img src="man/figures/tolman_court.png" align="center" width="500px"/>
 <img src="man/figures/howe_court.png" align="center" width="500px"/>
 
+### Gossip network
+
+Epstein, A.L. (1969). Gossip, Norms and Social Network. In Mitchell,
+J.C. (ed.) “Social Networks in Urban Situations” (pp. 117-127).
+Manchester, United Kingdom: Manchester University Press.
+
+``` r
+data("gossip_net")
+```
+
+<img src="man/figures/gossip_net.png" align="center" width="500px"/>
+
 ### Dispute of Worker of a Miner
 
 Kapferer, Bruce (1969). Norms and the manipulation of relationships in a
