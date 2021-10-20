@@ -8,7 +8,7 @@
 A matrix with the interconnections among the people in Tolman court.
 \describe{
     \item{gossip}{A 8 X 8 matrix with the gossip chain. The gossip
-    was 'given to' by people in columns, and 'given by' by those in rows.}
+    was 'given to' the people in columns, and 'given by' by those in rows.}
     \item{close}{A list of the position in the concentric circles of the
     people involved. 1: Circle in the middle of all, the most important one.
     2: second level surrounding the circle 1. 3: Extended network.}
