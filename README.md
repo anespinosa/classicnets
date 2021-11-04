@@ -125,7 +125,7 @@ data("gossip_net")
 
 <img src="man/figures/gossip_net.png" align="center" width="500px"/>
 
-### Dispute of Worker of a Miner
+### Dispute of Workers of a Miner
 
 Kapferer, Bruce (1969). Norms and the manipulation of relationships in a
 work context. In J Mitchell (ed), Social networks in urban situations.
