@@ -16,7 +16,7 @@ matrix_to_edgelist(A, digraph = FALSE, valued = FALSE, loops = FALSE)
 \item{loops}{Whether the loops are retained or not}
 }
 \value{
-This function return the counts of the dyadic census.
+This function transform the matrix into an edgelist.
 }
 \description{
 Transform symmetric matrix to an edge-list
