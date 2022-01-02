@@ -1,0 +1,175 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+
+<!-- badges: start -->
+[![CRAN status](https://www.r-pkg.org/badges/version/classicnets)](https://CRAN.R-project.org/package=classicnets)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+<!-- badges: end -->
+
+# classicnets: Classic Data of Social Networks <img src="man/figures/logo.png" align="right" width="180px"/>
+
+The goal of `classicnets` is to make available, compile and conserve classic data of social networks that are rarely available. We follow a history of this perspective based on [Linton Freeman](https://books.google.co.uk/books/about/The_Development_of_Social_Network_Analys.html?id=VcxqQgAACAAJ&redir_esc=y), [John Scott](https://link.springer.com/article/10.1007/s13278-010-0012-6) and reviews from [Ibero-America](https://chisocnet.org/social-network-in-ibero-america/). The data are in the classic `matrix` format. 
+
+`r emo::ji("pen")` Author/mantainer: [Alejandro Espinosa-Rada](https://www.research.manchester.ac.uk/portal/en/researchers/alejandro-espinosa(4ed72800-e02b-47a8-a958-640b6a07f563).html) 
+
+[![Follow me on Twitter](https://img.shields.io/badge/Follow me on Twitter-9cf.svg)](https://twitter.com/aespinosarada)
+
+`r emo::ji("pen")` Author/mantainer: [Francisca Ortiz](https://www.research.manchester.ac.uk/portal/francisca.ortiz.html)
+
+[![Follow me on Twitter](https://img.shields.io/badge/Follow me on Twitter-9cf.svg)](https://twitter.com/FranciscaOrtizR)
+
+`r emo::ji("school")` [The Mitchell Centre for Social Network Analysis](https://www.socialsciences.manchester.ac.uk/mitchell-centre/), The University of Manchester
+
+-----
+
+## Social Networks Available
+
+```{r}
+library(classicnets)
+```
+
+### Friendship choices among pupils
+
+Moreno, Jacob L. (1934). Who Shall Survive? Washington, DC: Nervous and Mental Disease Publishing Company.
+
+```{r}
+data("pupils_classroom")
+```
+
+<img src="man/figures/pupils_classroom.png" align="center" width="500px"/>
+
+### Western Electric Company
+
+Roethlisberger, Fritz Jules and Dickson, William John (1939). Management and the worker. An Account of a Research Program Conducted by the Western Electric Company, Hawthorne Works, Chicago. Harvard University Press: Cambridge, Massachusetts.
+
+```{r}
+data("bank_room")
+```
+
+<img src="man/figures/bank_room.png" align="center" width="500px"/>
+
+### Southern Women
+
+Davis, Allison; Gardner, Burleigh B. and Mary. R. Gardner (1941). Deep South: A Social Anthropological Study of Caste and Class. The University of Chicago Press, Chicago.
+
+```{r}
+data("southern_women")
+```
+
+<img src="man/figures/southern_women.png" align="center" width="500px"/>
+
+### Corner Boys
+
+Whyte, Willian Foote (1993[1943]). Street corner society. The social structure of an italian slum. Chicago, United States: The University of Chicago Press.
+
+```{r}
+data("corner_boys")
+data("informalorg_corneville")
+```
+  
+<img src="man/figures/corner_boys.png" align="center" width="500px"/>
+
+### Tolman and Howe Courts
+
+Festinger, Leon, Stanley, Schachter and Back, Kurt (1950). Social pressures in informal groups. A study of human factors in housing. California, United States: Stanford University Press.
+
+```{r}
+data("tolman_court")
+data("howe_court")
+```
+
+<img src="man/figures/tolman_court.png" align="center" width="500px"/>
+<img src="man/figures/howe_court.png" align="center" width="500px"/>
+
+### Lozi Kings
+
+Gluckman, Max (1973[1955]). The judicial process among the Barotse of Northern Rhodesia (Zambia). New York: Humanities Press. 
+
+```{r}
+data("lozi_kings")
+```
+
+<img src="man/figures/lozi_kings.png" align="center" width="500px"/>
+
+### Gossip network 
+
+Epstein, A.L. (1969). Gossip, Norms and Social Network. In Mitchell, J.C. (ed.) "Social Networks in Urban Situations" (pp. 117-127). Manchester, United Kingdom: Manchester University Press. 
+
+```{r}
+data("gossip_net")
+```
+
+<img src="man/figures/gossip_net.png" align="center" width="500px"/>
+
+### Dispute of Worker of a Miner
+
+Kapferer, Bruce (1969). Norms and the manipulation of relationships in a work context. In J Mitchell (ed), Social networks in urban situations. Manchester:  Manchester University Press.
+
+```{r}
+data("miner_dispute")
+```
+
+<img src="man/figures/miner_dispute.png" align="center" width="500px"/>
+
+### Mapuches in Coipuco
+
+Stuchlik, Milan (1976). The life on half share. Mechanisms of Social Recruitment among the Mapuche of Southern Chile. London: C. Hurst & Company.
+
+```{r}
+data("kin_mapuche")
+data("activity_mapuche")
+data("labor_mapuche")
+data("informalhelp_mapuche")
+data("participation_mapuche")
+```
+
+<img src="man/figures/kin_mapuche.png" align="center" width="500px"/>
+
+### Karate Club
+
+Zachary, Wayne W. (1977). An information flow model for conflict and fission in small groups. Journal of Anthropological Research, 33(4), 452-473.
+
+```{r}
+data("karate_club")
+```
+
+<img src="man/figures/karate_club.png" align="center" width="500px"/>
+
+-----
+
+## Social Network Data
+
+There are other excellent R packages for other and in some cases more comprehensive data such as [`igraphdata`](https://github.com/igraph/igraphdata) or [`networkdata`](https://github.com/schochastics/networkdata), and data in different formats in the project [Netzschleuder](https://networks.skewed.de). Likewise, there are many other classical social network databases in [UCINET](http://www.analytictech.com/archive/ucinet.htm), which is the most comprehensive and well established software for social network analysis of the last decades. 
+
+-----
+
+## Notes
+
+- Please report any missing sources/references for datasets.
+
+- Many datasets were manually gathered and may in this manner contain blunders. On the off chance that you detect any, please report them. 
+
+- Double check the original source for any irregularities if you need to use the information in an academic paper.
+
+-----
+
+## Code of conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](https://anespinosa.github.io/netmem/CODE_OF_CONDUCT.html). By participating in this project you agree to abide by its terms.
+
+-----

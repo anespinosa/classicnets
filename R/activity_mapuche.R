@@ -1,0 +1,38 @@
+#' Daily activities in Coipuco by 22 Mapuches 1969.
+#'
+#' This matrices are part of a study that was conducted at Coipuco, in Chile,
+#' Southamerica, between 1968 and 1970. The data was collected by Milan Stuchlik.
+#' It has been recognized as one of the first studies in Chile and latinamerica
+#'  using social network analysis (Ortiz and Espinosa-Rada, forthcoming).
+#' The complete work was published as a book by Stuchlik (1976), which
+#' described in more detailed the complete etnography.
+#'
+#' @references Ortiz, Francisca and Espinosa-Rada, Alejandro (forthcoming).
+#' Ciencias de redes sociales en America Latina: enfasis y nuevas directrices
+#' en el campo de las ciencias sociales. In Ortiz, Francisca and Espinosa-Rada,
+#' Alejandro (eds.) El analisis de redes sociales en Latinamerica. Madrid,
+#' Spain: Editorial CIS.
+#'
+#' @format A 22 X 31 matrix of daily activities done by 22 Coipucans (January-
+#' March 1969). Random selection of 31 days of them.
+#' \describe{
+#'     \item{daily_act}{There were seven different activities added to the
+#'     matrix. 0 represent no information. 1: no work content (trip to town,
+#'     sickness, rest, etc). 2: individual work (with domestic group).
+#'     3: medieria. 4: co-operate work of members of two ot more domestic groups
+#'     (mingaco, vuelta de mano, medieria with both partners working).
+#'     5: hired work, paid services. 6: informal help. 7: left for Santiago.}
+#'     \item{label_day}{These are the 31 days selected by the researcher. Each
+#'     number represent one day of the month.}
+#' }
+#'
+#' @source Stuchlik, Milan (1976). The life on half share. Mechanisms of
+#' Social Recruitment among the Mapuche of Southern Chile. London: C. Hurst &
+#' Company.
+#'
+#' @usage data(activity_mapuche)
+#'
+#' @docType data
+#'
+#'
+"activity_mapuche"
