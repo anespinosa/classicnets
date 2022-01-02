@@ -13,8 +13,8 @@ v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/li
 # classicnets: Classic Data of Social Networks <img src="man/figures/logo.png" align="right" width="180px"/>
 
 The goal of `classicnets` is to make available, compile and conserve
-classic data of social networks that are rarely available. We follow a
-history of this perspective based on [Linton
+classic data of social networks. We follow the history of this
+perspective based on [Linton
 Freeman](https://books.google.co.uk/books/about/The_Development_of_Social_Network_Analys.html?id=VcxqQgAACAAJ&redir_esc=y),
 [John
 Scott](https://link.springer.com/article/10.1007/s13278-010-0012-6) and
@@ -25,18 +25,20 @@ The data are in the classic `matrix` format.
 🖊 Author/mantainer: [Alejandro
 Espinosa-Rada](https://www.research.manchester.ac.uk/portal/en/researchers/alejandro-espinosa(4ed72800-e02b-47a8-a958-640b6a07f563).html)
 
-[![Follow me on
-Twitter](https://img.shields.io/badge/Follow%20me%20on%20Twitter-9cf.svg)](https://twitter.com/aespinosarada)
+-   [![Follow me on
+    Twitter](https://img.shields.io/badge/Follow%20me%20on%20Twitter-9cf.svg)](https://twitter.com/aespinosarada)
+-   🏫 [Social Networks Lab](https://sn.ethz.ch), ETH Zürich
 
 🖊 Author/mantainer: [Francisca
 Ortiz](https://www.research.manchester.ac.uk/portal/francisca.ortiz.html)
 
-[![Follow me on
-Twitter](https://img.shields.io/badge/Follow%20me%20on%20Twitter-9cf.svg)](https://twitter.com/FranciscaOrtizR)
-
-🏫 [The Mitchell Centre for Social Network
-Analysis](https://www.socialsciences.manchester.ac.uk/mitchell-centre/),
-The University of Manchester
+-   [![Follow me on
+    Twitter](https://img.shields.io/badge/Follow%20me%20on%20Twitter-9cf.svg)](https://twitter.com/FranciscaOrtizR)
+-   🏫 [The Mitchell Centre for Social Network
+    Analysis](https://www.socialsciences.manchester.ac.uk/mitchell-centre/),
+    The University of Manchester
+-   🏫 [Millennium Institute for Caregiving Research
+    (MICARE)](https://www.micare.cl)
 
 ------------------------------------------------------------------------
 
@@ -73,6 +75,7 @@ Press: Cambridge, Massachusetts.
 
 ``` r
 data("bank_room")
+matrix_to_edgelist(bank_room$friendship)
 ```
 
 <img src="man/figures/bank_room.png" align="center" width="500px"/>
@@ -155,20 +158,52 @@ data("karate_club")
 
 <img src="man/figures/karate_club.png" align="center" width="500px"/>
 
+### The Electronic Information Exchange System
+
+Freeman, L.C., and Freeman, S.C. (1980). A semi-visible college:
+Structural effects on a social networks group. In Henderson, M.M., and
+McNaughton, M.J. (eds.) Electronic Communication: Technology and Impacts
+Boulder (pp. 77-85), CO: Westview Press
+
+``` r
+data("eies")
+```
+
 ------------------------------------------------------------------------
 
 ## Social Network Data
 
 There are other excellent R packages for other and in some cases more
-comprehensive data such as
-[`igraphdata`](https://github.com/igraph/igraphdata) or
-[`networkdata`](https://github.com/schochastics/networkdata), and data
-in different formats in the project
-[Netzschleuder](https://networks.skewed.de). Likewise, there are many
-other classical social network databases in
-[UCINET](http://www.analytictech.com/archive/ucinet.htm), which is the
-most comprehensive and well established software for social network
-analysis of the last decades.
+comprehensive datasets such as:
+
+-   [`igraphdata`](https://github.com/igraph/igraphdata)
+-   [`networkdata`](https://github.com/schochastics/networkdata)
+
+Other repositories (list created by participants of the conference
+[`Networks 2021: A Joint Sunbelt and NetSci Conference`](https://networks2021.net)):
+
+-   [Netzschleuder](https://networks.skewed.de)
+-   [UCINET](http://www.analytictech.com/archive/ucinet.htm)
+-   [Connections](https://www.exeley.com/journal/connections)
+-   [Gephi](https://github.com/gephi/gephi/wiki/Datasets)
+-   [snap](http://snap.stanford.edu/data/index.html)
+-   [icon](https://icon.colorado.edu/#!/networks)
+-   [networkrepository](https://networkrepository.com/)
+-   [Voter Fraud](https://voterfraud2020.io/)
+-   [Konect Project](http://konect.cc/)
+-   [Twitter Politicians](http://twitterpoliticians.org/)
+-   [Sociopatterns](http://www.sociopatterns.org/datasets/)
+-   [Kdnuggets](https://www.kdnuggets.com/2015/04/awesome-public-datasets-github.html)
+-   [Awesome Network
+    Analysis](https://github.com/briatte/awesome-network-analysis)
+-   [Microsoft
+    Academic](https://www.microsoft.com/en-us/research/project/microsoft-academic-graph/)
+-   [Datacommons](https://datacommons.org/)
+-   [figshare](https://figshare.com/articles/dataset/United_States_Commutes_and_Megaregions_data_for_GIS/4110156)
+-   [kaggle](https://www.kaggle.com/datasets?search=social+networks)
+-   [ConcISE](https://github.com/IDIASLab/CONcISE)
+-   [Alec’s Project
+    Documentation](http://wiki.alecmcgail.com/networkdatasets)
 
 ------------------------------------------------------------------------
 
