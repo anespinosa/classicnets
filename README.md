@@ -75,7 +75,7 @@ Press: Cambridge, Massachusetts.
 
 ``` r
 data("bank_room")
-matrix_to_edgelist(bank_room$friendship)
+matrix_to_edgelist(bank_room$friendship, digraph = TRUE)
 ```
 
 <img src="man/figures/bank_room.png" align="center" width="500px"/>
