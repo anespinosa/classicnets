@@ -5,7 +5,7 @@
 #' @param valued  Add a third columns with the valued of the relationship
 #' @param loops   Whether the loops are retained or not
 #'
-#' @return This function return the counts of the dyadic census.
+#' @return This function transform the matrix into an edgelist.
 #'
 #' @importFrom("stats", "aggregate")
 #'
@@ -21,12 +21,11 @@
 matrix_to_edgelist <- function(A, digraph=FALSE, valued=FALSE, loops=FALSE){
   M <- A
 
-  #if(dim(M)[1]!=dim(A)[M])stop("Adjacency matrix should be square")
-  #if(digraph){
-  #  if(sum(M[lower.tri(M)] - M[upper.tri(M)])==0)warning("The network is undirected")
-  #}else{
-  #  if(abs(sum(M[lower.tri(M)] - M[upper.tri(M)]))>0)warning("The networks might be directed")
-  #  M[lower.tri(M)]<-0}
+  # if(digraph){
+  #   if(sum(M[lower.tri(M)] - M[upper.tri(M)])==0)warning("The network is undirected")
+  # }else{
+  #   if(abs(sum(M[lower.tri(M)] - M[upper.tri(M)]))>0)warning("The networks might be directed")
+  #   M[lower.tri(M)]<-0}
 
   if(is.null(colnames(M))) colnames(M) <- 1:ncol(M)
   if(is.null(rownames(M))) rownames(M) <- 1:nrow(M)
@@ -63,9 +62,9 @@ matrix_to_edgelist <- function(A, digraph=FALSE, valued=FALSE, loops=FALSE){
     edge <- as.matrix(aggregate(list(valued=rep(1,nrow(df))), df, length))
     colnames(edge) <- NULL
   }
-  #else{
-  #    if(any(A>1))warning("The networks is valued")
-  #}
+  # else{
+  #   if(any(A>1))warning("The networks is valued")
+  # }
 
   if(loops==FALSE){
     #if(any(diag(M>0)))warning("There are loops in the network")
@@ -74,3 +73,8 @@ matrix_to_edgelist <- function(A, digraph=FALSE, valued=FALSE, loops=FALSE){
 
   return(edge)
 }
+
+A <- matrix(c(0,2,1,
+              1,0,0,
+              1,0,1), byrow=TRUE, ncol=3)
+matrix_to_edgelist(A, digraph=TRUE, valued = TRUE, loops=TRUE)
