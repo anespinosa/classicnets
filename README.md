@@ -42,15 +42,25 @@ The University of Manchester
 
 ## Social Networks Available
 
-    library(classicnets)
+You can install the development version from GitHub with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("anespinosa/classicnets")
+```
+
+``` r
+library(classicnets)
+```
 
 ### Friendship choices among pupils
 
 Moreno, Jacob L. (1934). Who Shall Survive? Washington, DC: Nervous and
 Mental Disease Publishing Company.
 
-    data("pupils_classroom")
-    #> Warning in data("pupils_classroom"): data set 'pupils_classroom' not found
+``` r
+data("pupils_classroom")
+```
 
 <img src="man/figures/pupils_classroom.png" align="center" width="500px"/>
 
@@ -61,7 +71,9 @@ and the worker. An Account of a Research Program Conducted by the
 Western Electric Company, Hawthorne Works, Chicago. Harvard University
 Press: Cambridge, Massachusetts.
 
-    data("bank_room")
+``` r
+data("bank_room")
+```
 
 <img src="man/figures/bank_room.png" align="center" width="500px"/>
 
@@ -71,7 +83,9 @@ Davis, Allison; Gardner, Burleigh B. and Mary. R. Gardner (1941). Deep
 South: A Social Anthropological Study of Caste and Class. The University
 of Chicago Press, Chicago.
 
-    data("southern_women")
+``` r
+data("southern_women")
+```
 
 <img src="man/figures/southern_women.png" align="center" width="500px"/>
 
@@ -81,8 +95,10 @@ Whyte, Willian Foote (1993\[1943\]). Street corner society. The social
 structure of an italian slum. Chicago, United States: The University of
 Chicago Press.
 
-    data("corner_boys")
-    data("informalorg_corneville")
+``` r
+data("corner_boys")
+data("informalorg_corneville")
+```
 
 <img src="man/figures/corner_boys.png" align="center" width="500px"/>
 
@@ -92,8 +108,10 @@ Festinger, Leon, Stanley, Schachter and Back, Kurt (1950). Social
 pressures in informal groups. A study of human factors in housing.
 California, United States: Stanford University Press.
 
-    data("tolman_court")
-    data("howe_court")
+``` r
+data("tolman_court")
+data("howe_court")
+```
 
 <img src="man/figures/tolman_court.png" align="center" width="500px"/>
 <img src="man/figures/howe_court.png" align="center" width="500px"/>
@@ -104,7 +122,9 @@ Kapferer, Bruce (1969). Norms and the manipulation of relationships in a
 work context. In J Mitchell (ed), Social networks in urban situations.
 Manchester: Manchester University Press.
 
-    data("miner_dispute")
+``` r
+data("miner_dispute")
+```
 
 <img src="man/figures/miner_dispute.png" align="center" width="500px"/>
 
@@ -114,10 +134,12 @@ Stuchlik, Milan (1976). The life on half share. Mechanisms of Social
 Recruitment among the Mapuche of Southern Chile. London: C. Hurst &
 Company.
 
-    data("kin_mapuche")
-    data("labor_mapuche")
-    data("informalhelp_mapuche")
-    data("participation_mapuche")
+``` r
+data("kin_mapuche")
+data("labor_mapuche")
+data("informalhelp_mapuche")
+data("participation_mapuche")
+```
 
 <img src="man/figures/kin_mapuche.png" align="center" width="500px"/>
 
@@ -127,7 +149,9 @@ Zachary, Wayne W. (1977). An information flow model for conflict and
 fission in small groups. Journal of Anthropological Research, 33(4),
 452-473.
 
-    data("karate_club")
+``` r
+data("karate_club")
+```
 
 <img src="man/figures/karate_club.png" align="center" width="500px"/>
 
