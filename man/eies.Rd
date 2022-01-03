@@ -17,6 +17,7 @@ A 32 X 32 matrix.
     2 = have met the other,
     3 = friend,
     4 = close personal friend.}
+    \itme{messages}{Number of messages sent among the researchers that used the electronic communication tool}
     \item{label}{The regins in which each Lozi king reigned.
     It was copy exactly from the original source. 0: no information.}
     \item{citations}{Number of citations at the beginning of the study
@@ -29,6 +30,8 @@ A 32 X 32 matrix.
 }
 }
 \source{
+Freeman, S.C., Freeman, L.C., 1979. The networkers network: A study of the impact of a new communications medium on sociometric structure. Social Science Research Reports 46. University of California, Irvine, CA.
+
 Freeman, L.C., and Freeman, S.C. (1980). A semi-visible college: Structural effects on a social networks group. In Henderson, M.M., and McNaughton, M.J. (eds.) Electronic Communication: Technology and Impacts Boulder (pp. 77-85), CO: Westview Press
 }
 \usage{
