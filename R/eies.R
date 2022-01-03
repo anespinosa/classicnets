@@ -17,9 +17,10 @@
 #'     2 = have met the other,
 #'     3 = friend,
 #'     4 = close personal friend.}
-#'     \itme{messages}{Number of messages sent among the researchers that used the electronic communication tool}
-#'     \item{label}{The regins in which each Lozi king reigned.
-#'     It was copy exactly from the original source. 0: no information.}
+#'     \item{messages}{
+#'     Number of messages sent among the researchers that used
+#'     the electronic communication tool}
+#'     \item{label}{Name of the social network researchers.}
 #'     \item{citations}{Number of citations at the beginning of the study
 #'     extracted from the Social Science Index}
 #'     \item{discipline}{Data extracted from a questionnaire, in which
