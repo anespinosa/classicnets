@@ -188,6 +188,7 @@ Other repositories (list created by participants of the conference
 
 -   [UCINET](http://www.analytictech.com/archive/ucinet.htm)
 -   [PAJEK](http://vladowiki.fmf.uni-lj.si/doku.php?id=pajek:data:index)
+-   [KONECT](http://konect.cc/networks/)
 -   [Netzschleuder](https://networks.skewed.de)
 -   [Connections](https://www.exeley.com/journal/connections)
 -   [Gephi](https://github.com/gephi/gephi/wiki/Datasets)
