@@ -182,8 +182,9 @@ comprehensive datasets such as:
 Other repositories (list created by participants of the conference
 [`Networks 2021: A Joint Sunbelt and NetSci Conference`](https://networks2021.net)):
 
--   [Netzschleuder](https://networks.skewed.de)
 -   [UCINET](http://www.analytictech.com/archive/ucinet.htm)
+-   [PAJEK](http://vladowiki.fmf.uni-lj.si/doku.php?id=pajek:data:index)
+-   [Netzschleuder](https://networks.skewed.de)
 -   [Connections](https://www.exeley.com/journal/connections)
 -   [Gephi](https://github.com/gephi/gephi/wiki/Datasets)
 -   [snap](http://snap.stanford.edu/data/index.html)
