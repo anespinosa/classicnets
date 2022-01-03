@@ -31,7 +31,7 @@ A 32 X 32 matrix.
 }
 }
 \source{
-Freeman, S.C., Freeman, L.C., 1979. The networkers network: A study of the impact of a new communications medium on sociometric structure. Social Science Research Reports 46. University of California, Irvine, CA.
+Freeman, S.C., Freeman, L.C. (1979). The networkers network: A study of the impact of a new communications medium on sociometric structure. Social Science Research Reports 46. University of California, Irvine, CA.
 
 Freeman, L.C., and Freeman, S.C. (1980). A semi-visible college: Structural effects on a social networks group. In Henderson, M.M., and McNaughton, M.J. (eds.) Electronic Communication: Technology and Impacts Boulder (pp. 77-85), CO: Westview Press
 }
