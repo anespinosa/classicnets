@@ -7,12 +7,16 @@
 #'
 #' @format A list of three incident matrices
 #' \describe{
-#'     \item{group1}{A 18 X 14 matrix of Group 1}
+#'     \item{group1}{A 18 X 14 matrix of Group 1, original data}
+#'     \item{group1b}{A 18 X 14 matrix of Group 1, second version}
 #'     \item{membership_group1}{A 18 X 14 matrix of the cliques of Group 1}
 #'     \item{group2}{A 6 X 9 matrix of Group 2}
 #' }
 #'
 #' @source Davis, Allison; Gardner, Burleigh B. and Mary. R. Gardner (1941). Deep South: A Social Anthropological Study of Caste and Class. The University of Chicago Press, Chicago.
+#'
+#' @details
+#' In the second version of the group 1 (i.e., \code{group1b}) four links are added (Dorothy, 6/10; Dorothy, 4/7; Helen, 11/21; Helen, 8/3)
 #'
 #' @usage data(southern_women)
 #'

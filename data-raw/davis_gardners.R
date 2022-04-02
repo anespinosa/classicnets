@@ -34,6 +34,37 @@ rowlabel <- c("Mrs. Evelyn Jefferson", "Miss Laura Mandeville",
 colnames(group1) <- collabel
 rownames(group1) <- rowlabel
 
+group1b <- matrix(c(1,1,1,1,1,1,0,1,1,0,0,0,0,0,
+                    1,1,1,0,1,1,1,1,0,0,0,0,0,0,
+                    0,1,1,1,1,1,1,1,1,0,0,0,0,0,
+                    1,0,1,1,1,1,1,1,0,0,0,0,0,0,
+                    0,0,1,1,1,0,1,0,0,0,0,0,0,0,
+                    0,0,1,0,1,1,0,1,0,0,0,0,0,0,
+                    0,0,0,0,1,1,1,1,0,0,0,0,0,0,
+                    0,0,0,0,0,1,0,1,1,0,0,0,0,0,
+                    0,0,0,0,1,0,1,1,1,0,0,0,0,0,
+                    0,0,0,0,0,0,1,1,1,0,0,1,0,0,
+                    0,0,0,0,0,0,0,1,1,1,0,1,0,0,
+                    0,0,0,0,0,0,0,1,1,1,0,1,1,1,
+                    0,0,0,0,0,0,1,1,1,1,0,1,1,1,
+                    0,0,0,0,0,1,1,0,1,1,1,1,1,1,
+                    0,0,0,0,0,0,1,1,0,1,1,1,1,1, # Helen: E13, E14
+                    0,0,0,0,0,0,0,1,1,1,0,1,0,0, # Dorothy: E10, E12
+                    0,0,0,0,0,0,0,0,1,0,1,0,0,0,
+                    0,0,0,0,0,0,0,0,1,0,1,0,0,0),
+                  byrow=TRUE, ncol=14)
+rowlabel <- c("Mrs. Evelyn Jefferson", "Miss Laura Mandeville",
+              "Miss Theresa Anderson", "Miss Brenda Rogers",
+              "Miss Charlotte McDowd", "Miss Frances Anderson",
+              "Miss Eleanor Nye", "Miss Pearl Oglethorpe",
+              "Miss Ruth DeSand", "Miss Verne Sanderson",
+              "Miss Myrna Liddell", "Miss Katherine Rogers", # In the original data, Myrna is called Myra
+              "Mrs. Sylvia Avondale", "Mrs. Nora Fayette",
+              "Mrs. Helen Lloyd", "Mrs. Dorothy Murchison",
+              "Mrs. Olivia Carleton", "Mrs. Flora Price")
+colnames(group1b) <- collabel
+rownames(group1b) <- rowlabel
+
 membership_group1 <- matrix(c("C","C","C","C","C","C","-","C","C","-","-","-","-","-",
                               "C","C","C","-","C","C","C","C","-","-","-","-","-","-",
                               "-","C","C","C","C","C","C","C","C","-","-","-","-","-",
@@ -76,6 +107,7 @@ rownames(group2) <- rowlabel
 
 southern_women <- list(group1=group1,
                        membership_group1=membership_group1,
+                       group1b=group1b,
                        group2=group2)
 
 usethis::use_data(southern_women, overwrite = TRUE)
