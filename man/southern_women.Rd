@@ -24,9 +24,11 @@ This data was collected in 1936 from ethnographic studies performed by A. Davis,
 The dates and social events were reported in Old City Herald and the names were reported utilizing interviews, the record of participant-observers and guest lists. The two groups are divided according to race categories, and the cliques are differentiated between core, primary and secondary members within one of the groups.
 }
 \details{
-In the second version of the group 1 (i.e., \code{group1b}) four links are added (Dorothy, 6/10; Dorothy, 4/7; Helen, 11/21; Helen, 8/3)
+In the second version of the group 1 (i.e., \code{group1b} from \code{membership_group1}) four links are added (Dorothy, 6/10; Dorothy, 4/7; Helen, 11/21; Helen, 8/3).
 }
 \references{
 Freeman, Linton C. (2004). The Development of Social Network Analysis. A Study in the Sociology of Science. Empirical Press, Vancouver, BC Canada
+
+Freeman, Linton C. (2003). Finding Social Groups: A Meta-Analysis of the Southern Women Data. In: Ronald Breiger, Kathleen Carley, and Philippa Pattison (Eds). Dynamic Social Network Modeling and Analysis: Workshop Summary and Papers. The National Academy of Science.
 }
 \keyword{datasets}
