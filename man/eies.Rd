@@ -27,7 +27,7 @@ A 32 X 32 matrix.
     1 = sociology,
     2 = anthropology,
     3 = mathematics/statistics,
-    4 = psychology/communication.}
+    4 = other.}
 }
 }
 \source{
@@ -40,6 +40,10 @@ data(eies)
 }
 \description{
 The data were collected by Freeman and Freeman (1980).
+Version 0.1.1 corrects the citations of Brian Foster, the disciplines
+of Sam Leinhardt, Joel Levine, Steve Seidman, and John Sonquist, three
+acquaintance ratings at time 1, and the spelling of Claude Fischer, so
+that the data match the UCINET release and Freeman's own data files.
 This is a network of researchers who participated in an early study on
 the effects of electronic information exchange,
 a precursor of email communication.
